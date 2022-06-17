@@ -4,6 +4,7 @@
 <div class="testspace" (mousemove)="mouseMoved($event)" (click)="mouseClicked($event)">
   <img [src]="imageSrc" width="100" height="100" *ngIf="showEyeTracking"> 
  
- 
+  <img [src]="blinkSrc" width="100" height="100" *ngIf="!showEyeTracking"> 
+
 
 </div>
