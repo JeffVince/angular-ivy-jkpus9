@@ -37,7 +37,7 @@ export class AppComponent  {
     this.showEyeTracking = !this.showEyeTracking;
     for (let i = 76; i < 86; i++)  {
       this.blinkSrc = this.blinkSrcFront + String(i) + this.imageSrcEnd;
-      await new Promise(resolve => setTimeout(resolve, 5));
+      await new Promise(resolve => setTimeout(resolve, 10));
       console.log(this.blinkSrc);
     }
     this.showEyeTracking = !this.showEyeTracking;
