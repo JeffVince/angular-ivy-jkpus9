@@ -12,9 +12,9 @@ export class AppComponent  {
   MouseY: number = 0;
   photo_id: number = 0;
   blink_id: number = 76
-  imageSrc: string = 'https://raw.githubusercontent.com/JeffVince/angular-ivy-jkpus9/master/src/assets/images/eye_state_00000.png';
+  imageSrc: string = 'https://raw.githubusercontent.com/JeffVince/angular-ivy-jkpus9/master/src/assets/images/Comp 1_00000.png';
 
-  imageSrcFront: string = "https://raw.githubusercontent.com/JeffVince/angular-ivy-jkpus9/master/src/assets/images/eye_state_000";
+  imageSrcFront: string = "https://raw.githubusercontent.com/JeffVince/angular-ivy-jkpus9/master/src/assets/images/Comp_1_000";
 
   imageSrcEnd: string = ".png"
 
